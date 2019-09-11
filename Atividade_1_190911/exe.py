@@ -50,8 +50,8 @@ Aplicação do algoritmo de classificação, geração da tabela de probabilidad
 ''' 
 from sklearn.naive_bayes import GaussianNB
 classificador = GaussianNB() #algoritmo de classificação
-classificador.fit(previsores_treinamento, classe_treinamento) #gera a tabela de probabilidade (1500 registros de treinamento)
-previsoes = classificador.predict(previsores_teste) #realiza a previsão, a múltiplicação das probabilidades (500 registro de teste)
+classificador.fit(previsores_treinamento, classe_treinamento) #gera a tabela de probabilidade (1014 registros de treinamento)
+previsoes = classificador.predict(previsores_teste) #realiza a previsão, a múltiplicação das probabilidades (339 registro de teste)
 
 '''
 Comparação do valores corretos com a previsão e geração da matriz de confusão
